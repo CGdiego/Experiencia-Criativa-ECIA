@@ -13,10 +13,3 @@ void draw(){
   // fill(0);
   // text(mouseX+":"+mouseY,10,50);
 }
-
-void personagem(int xp, int yp){
-  fill(0);
-  circle(xp,yp,250);
-  fill(255);
-  circle(xp,yp,150);
-}

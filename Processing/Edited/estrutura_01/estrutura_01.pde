@@ -11,15 +11,6 @@ void draw(){
   if (svar==3) tela3(); else
   if (svar==4) tela4();
 }
-
-void tela3(){
-  fill(0,0,255);
-  rect(0,0,width, height-40);
-}
-void tela4(){
-  fill(255,255,255);
-  rect(0,0,width, height-40);
-}
 void botoes(){
   fill(255,0,0);     rect(0,360, 100,40);    fill(0);   text("01",  10,390);
   fill(0,255,0);     rect(100,360,100,40);   fill(0);   text("02", 110,390);

@@ -1,3 +1,6 @@
 [submodule "EC-Jogo"]
 	path = EC-Jogo
 	url = https://github.com/CGdiego/EC-Jogo
+[submodule "App-MM"]
+	path = App-MM
+	url = https://github.com/CGdiego/App-MM

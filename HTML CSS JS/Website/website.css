@@ -1,0 +1,151 @@
+/* Estilos Gerais (Visual Retrô e Sombrio) */
+body {
+    background-color: #0b0f19; /* Azul bem escuro */
+    color: #f0f4f8; /* Texto em branco azulado */
+    font-family: 'Courier New', Courier, monospace; /* Fonte retrô */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho e Menu */
+header {
+    background-color: #161f33;
+    padding: 25px;
+    border-bottom: 4px solid #00d2ff; /* Linha neon */
+}
+
+h1 {
+    color: #00d2ff;
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px 0px #000;
+}
+
+header p {
+    font-style: italic;
+    color: #a5b1c2;
+}
+
+/* Configuração do Menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid transparent;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: #00d2ff;
+    border: 2px solid #00d2ff;
+    background-color: #0b0f19;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Seções (Estilo caixas de RPG) */
+section {
+    background-color: #161f33;
+    margin: 40px 0;
+    padding: 30px;
+    border: 4px solid #3a4b6e;
+    box-shadow: 6px 6px 0px #000;
+}
+
+h2 {
+    color: #ff9f43;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 210, 255, 0.4);
+    margin-top: 15px;
+}
+
+del {
+    color: #ff6b6b;
+    font-size: 1.1rem;
+}
+
+strong {
+    color: #1dd1a1;
+    font-size: 1.6rem;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Botão de Compra */
+button {
+    background-color: #ff9f43;
+    color: #000000;
+    border: 3px solid #ffffff;
+    padding: 15px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #1dd1a1;
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px #000000;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000000;
+}
+
+.email-contato {
+    color: #00d2ff;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #070a10;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #718093;
+    border-top: 4px solid #3a4b6e;
+    margin-top: 50px;
+}
+
+/* Estilo ajustado para dar zoom e cortar as barras pretas das laterais */
+.foto-amiibo {
+    width: 220px;   /* Forçamos uma largura fixa */
+    height: 220px;  /* Forçamos uma altura idêntica para virar um quadrado */
+    object-fit: cover; /* O SEGREDO: Dá zoom no centro e corta o que sobrar nas pontas (as barras pretas) */
+    
+    background-color: #ffffff; /* O fundo do card continua branco combinando com o fundo do boneco */
+    border: 4px solid #ff9f43; /* Moldura laranja estilo caixa de jogo */
+    box-shadow: 6px 6px 0px #000000; /* Sombra retrô quadradona */
+    margin: 20px 0;
+}

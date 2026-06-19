@@ -4,3 +4,7 @@
 [submodule "App-MM"]
 	path = App-MM
 	url = https://github.com/CGdiego/App-MM
+[submodule "EC-Website"]
+	path = EC-Website
+	url = https://github.com/CGdiego/EC-Website
+	branch = main
